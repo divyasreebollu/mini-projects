@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya Sree Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #f6d365, #fda085);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff9966;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .template-btn {
+      background-color: #ff7043;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .portfolio {
+      display: none;
+      margin-top: 2rem;
+      background: rgb(233, 138, 192);
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 900px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .intro-text {
+      flex: 1;
+      min-width: 250px;
+    }
+    .intro img {
+      width: 180px;
+      border-radius: 12px;
+      flex-shrink: 0;
+    }
+    h2 {
+      color: #ca680b;
+    }
+    a {
+      color: #07785f;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Divya Sree Portfolio</h1>
+  </header>
+  <div class="container">
+    <button class="template-btn" onclick="document.querySelector('.portfolio').style.display='block'">Open</button>
+    
+    <div class="portfolio">
+      <div class="intro">
+        <div class="intro-text">
+          <h2>About Me</h2>
+          <p>I'm Divya Sree, currently pursuing final year B.Tech at Srinivasa Ramanujan Institute of Technology, Anantapur.
+          I’m passionate about coding, problem-solving, and building projects across various domains. I am actively seeking 
+          a role where I can showcase my innovative and professional skills to build a strong career.</p>
+        </div>
+        <img src="C:\Users\B Divya sreee\Downloads\divya_sree_bollu-removebg-preview.png" alt="Divya Sree">
+      </div>
+
+      <h2>Skills</h2>
+      <p>C, Java, Python, Web (HTML, CSS, JavaScript), Cybersecurity, Machine Learning, SQL <br> Networking, Ms word, ppt, Excel, Android</p>
+
+      <h2>Projects</h2>
+      <p><strong>Smart Transit - College Live Bus Tracking and Management</strong><br>
+      • Developed a real-time bus tracking system using GPS and GSM.<br>
+      • Designed an admin web interface to manage bus and user details.<br>
+      • Optimized transit efficiency through real-time tracking and route management.<br>
+      <a href="http://github.com/divyasreebollu/" target="_blank">Project Link</a></p>
+
+      <h2>Education</h2>
+      <ul>
+        <li>B.Tech - SRIT (2021-2025) - 8.94/10</li>
+        <li>Intermediate - Srichaitanya Junior College (2019-2021) - 943/1000</li>
+        <li>SSC - Target E.M School (2018-2019) - 10/10</li>
+      </ul>
+
+      <h2>Internships</h2>
+      <ul>
+        <li>Salesforce Developer - SmartBridge</li>
+        <li>Android Developer - Google</li>
+        <li>Cybersecurity - Cisco</li>
+        <li>Python - Infosys Springboard</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:bolludivyasree@gmail.com">bolludivyasree@gmail.com</a><br>
+         Phone: <a href="tel:+919652557495">9652557495</a></p>
+
+      <h2>Links</h2>
+      <p><a href="https://github.com/divyasreebollu" target="_blank">GitHub</a> | 
+         <a href="https://www.linkedin.com/in/divya-sree-b-082b23264/" target="_blank">LinkedIn</a></p>
+    </div>
+  </div>
+</body>
+</html>
